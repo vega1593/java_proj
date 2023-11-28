@@ -32,7 +32,7 @@ public class Rectangle_Array2 {
 				
 				if ( i == 0 ) { 	// 짝수만 저장 	
 				int a = 2 ;	 
-				for ( int j = 0 ; j < arr.length; j++) {
+				for ( int j = 0 ; j < arr[i].length; j++) {
 						if ( a % 2 == 0) {
 							arr[i][j] = a ; 
 							a+=2 ;
@@ -109,7 +109,7 @@ public class Rectangle_Array2 {
 			System.out.println();
 			}
 			
-			System.err.println(" ===== Enhanced For 문으로 출력 1 ======");
+			System.out.println(" ===== Enhanced For 문으로 출력 1 ======");
 			for(int[] a : arr) {
 				System.out.println(Arrays.toString(a));
 			}
