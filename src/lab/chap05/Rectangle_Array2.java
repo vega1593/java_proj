@@ -31,11 +31,11 @@ public class Rectangle_Array2 {
 			for ( int i = 0 ; i < arr.length; i++) {	//i : 행의 번호 
 				
 				if ( i == 0 ) { 	// 짝수만 저장 	
-				int a = 2 ;	 
-				for ( int j = 0 ; j < arr[i].length; j++) {
+				int a = 1 ;	 
+				for ( int j = 0 ; j < arr[i].length; a++) {
 						if ( a % 2 == 0) {
 							arr[i][j] = a ; 
-							a+=2 ;
+							j++;
 			}
 			}
 												
@@ -46,7 +46,7 @@ public class Rectangle_Array2 {
 							if( a % 3 != 0) {		//3의 배수가 아닐때
 								// 홀수이면서 3의 배수가 아닐때
 								arr[i][j] = a;
-								j++;
+								j++; 
 							}
 							
 						}
@@ -115,7 +115,7 @@ public class Rectangle_Array2 {
 			}
 			
 			
-			 System.out.println(" ==== Enhanced For 문으로 출력 2 ==== ");
+			 System.out.println(" ===== Enhanced For 문으로 출력 2 ===== ");
 			 for (int[] a : arr ) {
 				 for (int b : a ) {
 					 System.out.print(b);
