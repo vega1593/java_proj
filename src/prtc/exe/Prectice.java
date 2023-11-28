@@ -1,7 +1,7 @@
 package prtc.exe;
 
 import java.util.Scanner;
-
+import java.util.Arrays;
 public class Prectice {
 
 	public static void main(String[] args) {
@@ -34,6 +34,17 @@ public class Prectice {
 	
 	
 	}
+	
+	
 
-}
+			
+	
+
+	
+
+			}
+		
+				
+
+
 

@@ -16,9 +16,7 @@ public class NonRactangle_Array {
 		arr[1] = new int [3];		// 1번 행의 열의 갯수 정의
 		arr[2] = new int [5]; 		// 2번 행의 열의 갯수 정의
 		
-		//3. Arrays.toString() 으로 출력 
-		
-		
+		//3. Arrays.toString() 으로 출력 	
 		System.out.println(Arrays.toString(arr[0]));
 		System.out.println(Arrays.toString(arr[1]));
 		System.out.println(Arrays.toString(arr[2]));
