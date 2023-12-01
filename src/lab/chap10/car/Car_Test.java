@@ -32,7 +32,7 @@ public class Car_Test {
 		aList.add(c2);
 		aList.add(c3);
 		
-		System.out.println("===========================");
+		System.out.println("=========================");
 		// for 문을 사용해서 끄집어 내서 출력
 		for(int i = 0 ; i < aList.size(); i++) {
 			
