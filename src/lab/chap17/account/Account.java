@@ -6,11 +6,10 @@ public class Account {
 	String name; 	//이름
 	int account;	//계좌번호
 	int money; 	// 액수
-	
+	String registration;
 	void nameAccount() {
 		System.out.println(" 이름 : "+ this.name + " 계좌 번호 : " + this.account + " 입니다. ");
 	}
-
 	void deposit (int money ) { 	//입금 <== ~ 입금 되었습니다 . 계좌의 잔금은 0000 입니다.
 		this.money += money;
 		System.out.println(money + "원 입금되었습니다. 잔액은 " + this.money + "원 입니다.");
